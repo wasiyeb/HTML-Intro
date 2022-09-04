@@ -1,0 +1,25 @@
+{
+  "name": "html-intro",
+  "version": "1.0.0",
+  "description": "HTML Learning",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -c-1 -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasiyeb/HTML-Intro.git"
+  },
+  "keywords": [
+    "1921"
+  ],
+  "author": "Fikr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasiyeb/HTML-Intro/issues"
+  },
+  "homepage": "https://github.com/wasiyeb/HTML-Intro#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
