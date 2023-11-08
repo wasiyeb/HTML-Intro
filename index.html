@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+    <h1>Sample Form</h1>
+    <form action="process-form.php" method="post">
+        <!-- Text Input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Gender:</legend>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+        </fieldset>
+        <br>
+
+        <!-- Checkboxes -->
+        <fieldset>
+            <legend>Select your interests:</legend>
+            <label for="interest1">Interest 1</label>
+            <input type="checkbox" id="interest1" name="interests[]" value="interest1">
+            <label for="interest2">Interest 2</label>
+            <input type="checkbox" id="interest2" name="interests[]" value="interest2">
+            <label for="interest3">Interest 3</label>
+            <input type="checkbox" id="interest3" name="interests[]" value="interest3">
+        </fieldset>
+        <br>
+
+        <!-- Dropdown Menu -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+
+        <!-- Textarea -->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        <br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
